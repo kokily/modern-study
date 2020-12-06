@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 
 const FooterCenter = () => (
   <>
@@ -7,24 +6,16 @@ const FooterCenter = () => (
       <h3 className="text-white">빠른 링크</h3>
       <ul className="footer-list">
         <li>
-          <Link href="/about">
-            <a>브랜드 스토리</a>
-          </Link>
+          <a href="/about">브랜드 스토리</a>
         </li>
         <li>
-          <Link href="/divide">
-            <a>모던스터디 차별성</a>
-          </Link>
+          <a href="/divide">모던스터디 차별성</a>
         </li>
         <li>
-          <Link href="/studyzone">
-            <a>인테리어 공간</a>
-          </Link>
+          <a href="/studyzone">인테리어 공간</a>
         </li>
         <li>
-          <Link href="/event">
-            <a>이벤트&커뮤니티</a>
-          </Link>
+          <a href="/event">이벤트&커뮤니티</a>
         </li>
       </ul>
     </div>
@@ -36,9 +27,7 @@ const FooterCenter = () => (
           <img alt="img" src="/images/rooms/studyzone.jpg" />
         </div>
         <div className="footer-recent-post-content">
-          <Link href="/studyzone">
-            <a>스터디 존</a>
-          </Link>
+          <a href="/studyzone">스터디 존</a>
         </div>
       </div>
       <div className="clearfix footer-recent-post">
@@ -46,9 +35,7 @@ const FooterCenter = () => (
           <img alt="img" src="/images/rooms/privacyroom.jpg" />
         </div>
         <div className="footer-recent-post-content">
-          <Link href="/privacyroom">
-            <a>1인 집중실</a>
-          </Link>
+          <a href="/privacyroom">1인 집중실</a>
         </div>
       </div>
       <div className="clearfix footer-recent-post">
@@ -56,9 +43,7 @@ const FooterCenter = () => (
           <img alt="img" src="/images/rooms/cafezone.jpg" />
         </div>
         <div className="footer-recent-post-content">
-          <Link href="/cafezone">
-            <a>카페 존</a>
-          </Link>
+          <a href="/cafezone">카페 존</a>
         </div>
       </div>
       <div className="clearfix footer-recent-post">
@@ -66,9 +51,7 @@ const FooterCenter = () => (
           <img alt="img" src="/images/rooms/studyroom.jpg" />
         </div>
         <div className="footer-recent-post-content">
-          <Link href="/studyroom">
-            <a>스터디 룸</a>
-          </Link>
+          <a href="/studyroom">스터디 룸</a>
         </div>
       </div>
     </div>

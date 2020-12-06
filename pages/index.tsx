@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import PageTemplate from '../components/PageTemplate';
+import PageTemplate from '../components/common/PageTemplate';
 
 const IndexPage = () => {
   return (

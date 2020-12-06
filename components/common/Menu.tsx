@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 
 interface MenuItemProps {
   href: string;
@@ -8,9 +7,7 @@ interface MenuItemProps {
 
 const MenuItem: React.FC<MenuItemProps> = ({ href, title }) => (
   <li>
-    <Link href={`/${href}`}>
-      <a>{title}</a>
-    </Link>
+    <a href={`${href}`}>{title}</a>
   </li>
 );
 
@@ -23,11 +20,9 @@ const Menu = () => {
             <div className="menu_area alt-font">
               <nav className="navbar navbar-expand-lg navbar-light no-padding">
                 <div className="navbar-header navbar-header-custom">
-                  <Link href="/">
-                    <a className="navbar-brand">
-                      <img id="logo" src="/images/logo1.png" alt="Logo" />
-                    </a>
-                  </Link>
+                  <a href="/" className="navbar-brand">
+                    <img id="logo" src="/images/logo1.png" alt="Logo" />
+                  </a>
                 </div>
 
                 <div className="navbar-toggler" />
@@ -40,9 +35,7 @@ const Menu = () => {
                   <MenuItem href="/about" title="브랜드 스토리" />
                   <MenuItem href="/divide" title="모던스터디 차별성" />
                   <li>
-                    <Link href="/studyzone">
-                      <a>인테리어 공간</a>
-                    </Link>
+                    <a href="/studyzone">인테리어 공간</a>
                     <ul>
                       <MenuItem href="/studyzone" title="스터디 존" />
                       <MenuItem href="/privacyroom" title="1인 집중실" />

@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import styled from 'styled-components';
 
 const FooterBar = () => (
@@ -10,18 +9,14 @@ const FooterBar = () => (
           <div className="footer-social-icons small">
             <ul>
               <li>
-                <Link href="https://instagram.com/modernstudy_eungye">
-                  <a>
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                </Link>
+                <a href="https://instagram.com/modernstudy_eungye">
+                  <i className="fab fa-instagram"></i>
+                </a>
               </li>
               <li>
-                <Link href="https://blog.naver.com/modernstudycafe">
-                  <a>
-                    <Naver />
-                  </a>
-                </Link>
+                <a href="https://blog.naver.com/modernstudycafe">
+                  <Naver />
+                </a>
               </li>
             </ul>
           </div>
