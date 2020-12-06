@@ -1,5 +1,12 @@
+import Header from "../components/Header";
+
 const IndexPage = () => {
-  return <div>IndexPage</div>;
+  return (
+    <>
+      <Header />
+      <div>IndexPage</div>
+    </>
+  );
 };
 
 export default IndexPage;
