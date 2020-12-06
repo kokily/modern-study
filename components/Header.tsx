@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <HeaderBlock>
+    <HeaderBlock className="header-style1 menu_area-light">
       <div id="top-bar">
         <div className="container">
           <div className="row">

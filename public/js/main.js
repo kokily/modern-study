@@ -58,8 +58,8 @@
       $('header')
         .removeClass('scrollHeader')
         .addClass('fixedHeader');
-      logoinner.attr('src', 'assets/custom/logo1.png');
-      logodefault.attr('src', 'assets/custom/logo1.png');
+      logoinner.attr('src', 'images/logo1.png');
+      logodefault.attr('src', 'images/logo1.png');
       logowhite.attr('src', 'img/logos/logo-white.png');
       logowhitedark.attr('src', 'img/logos/logo-white.png');
       logo2.attr('src', 'img/logos/logo-2-light.png');
@@ -68,8 +68,8 @@
       $('header')
         .removeClass('fixedHeader')
         .addClass('scrollHeader');
-      logoinner.attr('src', 'assets/custom/logo2.png');
-      logodefault.attr('src', 'assets/custom/logo1.png');
+      logoinner.attr('src', 'images/logo2.png');
+      logodefault.attr('src', 'images/logo1.png');
       logowhite.attr('src', 'img/logos/logo-white.png');
       logowhitedark.attr('src', 'img/logos/logo-dark.png');
       logo2.attr('src', 'img/logos/logo-2-dark.png');
