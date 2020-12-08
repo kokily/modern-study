@@ -31,12 +31,6 @@ const App = ({ Component, pageProps }: AppProps) => {
 
         <title>모던 스터디 카페</title>
       </Head>
-
-      <div id="preloader">
-        <div className="row loader">
-          <div className="loader-icon" />
-        </div>
-      </div>
       
       <Component {...pageProps} />
 
