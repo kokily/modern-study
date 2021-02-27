@@ -13,7 +13,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         <meta name="keywords" content="modern, study, cafe" />
         <meta
           name="description"
-          content="Study Cafe, Modern, Modern Study Cafe, 모던스터디, 모던스터디카페, 스터디카페"
+          content="Study Cafe, Modern, Modern Study Cafe, 모던스터디, 모던스터디카페, 스터디카페, 시흥, 은계, 시흥스터디카페, 시흥 스터디, 은계스터디카페, 은계 스터디"
         />
         <link rel="icon" href="/favicon.png" />
         <link rel="apple-touch-icon" href="/logo192.png" />
@@ -31,7 +31,7 @@ const App = ({ Component, pageProps }: AppProps) => {
 
         <title>모던 스터디 카페</title>
       </Head>
-      
+
       <Component {...pageProps} />
 
       <script src="/js/jquery.min.js"></script>
